@@ -10,7 +10,7 @@ class Main(commands.Cog):
 	@commands.Cog.listener()
 	async def on_ready(self):
 		await self.bot.change_presence(
-			activity=discord.Streaming(name=' ', url='https://www.twitch.tv/regzoom')
+			activity=discord.Streaming(name='', url='https://www.twitch.tv/regzoom')
 		)
 		
 		for guild in self.bot.guilds:
