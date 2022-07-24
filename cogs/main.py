@@ -70,7 +70,7 @@ class Main(commands.Cog):
 	@commands.command()
 
 	async def asd(self, ctx):
-		emb = discord.Embed(title = 'Розыгрыш	', description = ' Разыгрываю кастомную роль, типу который пригласит больше всех новых участников на сервер получит кастомную роль(будет называться как он хочет, такого цвета как он захочет)\n итоги где-то через недельку сделаю.\n\n Всем удачи', colour = discord.Color.from_rgb(48,52,52))
+		emb = discord.Embed(title = 'НАБОР НА MODERATOR СЕРВЕРА', description = '``` ```\n <:1636347189_10papikpropstikerizxc:1000689788082475008>', colour = discord.Color.from_rgb(48,52,52))
 
 		emb.set_image(url = '')
 
