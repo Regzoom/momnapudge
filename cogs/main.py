@@ -72,7 +72,7 @@ class Main(commands.Cog):
 	async def asd(self, ctx):
 		emb = discord.Embed(title = 'НАБОР НА MODERATOR СЕРВЕРА', description = '``` ```\n <:1636347189_10papikpropstikerizxc:1000689788082475008>Дорогие и уважаемые игроки сервера, внимание!\nхотим сообщить, что сейчас проходит набор в стафф сервера, а именно<@&998838432816189460>\n``` ```\n<:f4ec6f178b3ca4636ab68be586d909c1:1000693704396374036>Основные задачи стаффа\n\n**1**Слушать администрацию проекта\n**2**Относиться к своей должности ответсвенно\n', colour = discord.Color.from_rgb(48,52,52))
 
-		emb.set_image(url = 'https://c.tenor.com/wD-ZgMRtPiwAAAAM/alohadance-rage.gif')
+		emb.set_image(url = 'https://c.tenor.com/9g_98rfxt34AAAAd/alohadance-laugh.gif')
 		
 		await ctx.send(embed = emb)
 
