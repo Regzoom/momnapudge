@@ -70,7 +70,7 @@ class Main(commands.Cog):
 	@commands.command()
 
 	async def asd(self, ctx):
-		emb = discord.Embed(title = 'НАБОР НА MODERATOR СЕРВЕРА', description = '``` ```\n <:1636347189_10papikpropstikerizxc:1000689788082475008>Дорогие друзья в данный момент идет набор в @998838432816189460', colour = discord.Color.from_rgb(48,52,52))
+		emb = discord.Embed(title = 'НАБОР НА MODERATOR СЕРВЕРА', description = '``` ```\n <:1636347189_10papikpropstikerizxc:1000689788082475008>Дорогие друзья в данный момент идет набор в <@998838432816189460>', colour = discord.Color.from_rgb(48,52,52))
 
 		emb.set_image(url = '')
 
