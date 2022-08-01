@@ -72,7 +72,7 @@ class Main(commands.Cog):
 	async def asd(self, ctx):
 		emb = discord.Embed(title = 'asdasdasd', description = '``` ```123123131', colour = discord.Color.from_rgb(48,52,52))
 
-		emb.set_image(url = 'https://c.tenor.com/9g_98rfxt34AAAAd/alohadance-laugh.gif')
+		emb.set_image(url = '')
 		
 		await ctx.send(embed = emb)
 
